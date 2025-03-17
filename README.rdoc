@@ -1,0 +1,4 @@
+= redmine_to_selectbe4  
+The **Redmine Select2 Plugin** is an extension for Redmine that enhances the user experience when interacting with `select` fields (dropdowns) by integrating the popular **Select2** plugin. Select2 is a library that transforms dropdown menus into more dynamic, searchable, and multi-select elements.
+
+With this plugin, all `select` tags in Redmine are automatically converted into advanced dropdowns with search functionality, autocomplete support, and multi-select capability where applicable.

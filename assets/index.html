@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+    <link rel="stylesheet" href="stylesheets\select2-3.4.5\selectB4.css">
+
+
+    <script src="javascripts/selectB4.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+
+    <div>
+        <select name="names" id="names">
+            <option value="john">John</option>
+            <option value="jane">Jane</option>
+            <option value="michael">Michael</option>
+            <option value="sarah">Sarah</option>
+            <option value="david">David</option>
+            <option value="emily">Emily</option>
+            <option value="chris">Chris</option>
+            <option value="anna">Anna</option>
+            <option value="james">James</option>
+            <option value="laura">Laura</option>
+        </select>
+    </div>
+    <script>
+
+        (function () {
+            $('#cars').selectB4();
+            $('#names').selectB4();
+
+        })();
+
+
+    </script>
+</body>
+
+</html>
